@@ -1,0 +1,45 @@
+*
+{
+    box-sizing: border-box;
+}
+
+html,body
+{
+    margin: 0; padding: 0;
+}
+
+.container
+{
+    margin: 100px; padding: 50px;
+}
+
+.form-group
+{
+    margin: 10px;
+}
+
+input
+{
+    width: 100%;
+    border: solid 1px #eee;
+    padding: 15px 10px;
+}
+
+button
+{
+    width: 150px;
+    padding: 15px;
+    margin-left: 250px;
+    background:none;
+    color: dodgerblue;
+    border: solid 1px dodgerblue;
+    cursor: pointer;
+    border-radius: 33px;
+    transition: all .38s ease-in-out;
+}
+
+button:hover
+{
+    background: dodgerblue;
+    color: #fff;
+}
